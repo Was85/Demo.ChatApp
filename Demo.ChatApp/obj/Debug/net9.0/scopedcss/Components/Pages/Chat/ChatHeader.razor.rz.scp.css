@@ -1,0 +1,25 @@
+.chat-header-container[b-rlowzl3x1u] {
+    top: 0; 
+    padding: 1.5rem; 
+}
+
+.chat-header-controls[b-rlowzl3x1u] {
+    margin-bottom: 1.5rem; 
+}
+
+h1[b-rlowzl3x1u] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.new-chat-icon[b-rlowzl3x1u] {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: rgb(55, 65, 81);
+}
+
+@media (min-width: 768px) {
+    .chat-header-container[b-rlowzl3x1u] {
+        position: sticky;
+    }
+}
